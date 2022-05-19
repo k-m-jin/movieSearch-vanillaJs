@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Movie!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <input
+          type="text"
+          value=""
+          pattern="^[a-zA-Z0-9]+$"
+          placeholder="that movie title"
+          autofocus
+        />
+        <button class="search-btn btn"><span>Search</span></button>
+        <div class="total-results"></div>
+      </header>
+      <ul class="movies"></ul>
+      <div class="false">no movie...try again</div>
+      <button class="more-btn btn"><span>More</span></button>
+    </div>
+  </body>
+</html>
