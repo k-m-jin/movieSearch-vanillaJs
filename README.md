@@ -68,7 +68,6 @@ https://www.omdbapi.com?apikey=7035c60c&s=frozen&page=3
   "Response": "True"
 }
 ```
-
 ---
 
 ### 사이트
